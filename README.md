@@ -16,17 +16,17 @@
 
 ![Header](./img/header.png)
 ```
-header.header>div.container>nav.nav>ul.nav__list>li.nav__item>a.nav__link
+header.header>div.container>nav.nav>ul.nav__list>a.nav__logo-link>img^li.nav__item*4>a.nav__link
 ```
 
 ![Card](./img/card.png)
 ```
-section.cards-section>div.container>div.cards>div.cards__card.card>img.card__img+div.card__text-container.text-container>p.text-container__slogan+p.text-container__head+p.text-container__main
+section.cards-section>div.container>div.cards>div.cards__card.card>img.card__img+div.card__text-container.text-container>p.text-container__slogan+p.text-container__heading+p.text-container__main
 ```
 
 ![Form](./img/form.png)
 ```
-section.form-section>div.container>form.form>h2.form__head+p.form__text+div.form__buttons-container.buttons-container>input.form__text-btn+input.form__subscribe-btn
+section.form-section>div.container>form.form>h2.form__heading+p.form__text+div.form__button-container.button-container>input.form__text-input+label.visuallyhidden+input.form__subscribe-btn
 ```
 
 ![Footer](./img/footer.png)
